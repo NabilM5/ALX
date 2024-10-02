@@ -1,7 +1,3 @@
-Here is a revised version of the README.md with your updated author information and a suggestion for replacing the video with a screenshot:
-
----
-
 # The Maze
 
 The Maze is a 3D Maze game that utilizes ray casting to transform a 2D map into a 3D navigable environment!
