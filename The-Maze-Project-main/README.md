@@ -1,33 +1,52 @@
+Here is a revised version of the README.md with your updated author information and a suggestion for replacing the video with a screenshot:
+
+---
+
 # The Maze
 
-The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!
+The Maze is a 3D Maze game that utilizes ray casting to transform a 2D map into a 3D navigable environment!
 
-The Maze was written was written in C ussing SDL2 library. Deveploment was performed using Ubuntu 24.04 - gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0
+The project was developed in C using the SDL2 library. Development was conducted on Ubuntu 24.04 using GCC (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0.
 
 ### About SDL2 
 
-Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games.
+Simple DirectMedia Layer (SDL2) is a cross-platform development library that provides low-level access to audio, keyboard, mouse, joystick, and graphics hardware through OpenGL and Direct3D. SDL2 is widely used in video playback software, emulators, and popular games, including many titles from Valve and Humble Bundle games.
 
 ## Installation 
+To clone the repository, run:
 ```sh
-$ git clone https://github.com/Azubuikeleo13/The-Maze-Project.git
+$ git clone https://github.com/NabilM5/The-Maze-Project.git
 ```
+
 ## Usage 
-* Execute ./maze or type make run 
-* Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
-* Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
+- Run the game by typing `./maze` or `make run` in the terminal.
+- Use the up and down arrow keys (or the W and S keys) to move forward and backward.
+- Use the left and right arrow keys (or the A and D keys) to rotate the camera.
 
 ## Compilation
+To compile the code, use the following command:
 ```sh
 $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
 ```
 
 ## Flowchart
-![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
 
-## Demo
-[![The Maze Demo](https://i.imgur.com/5Ss7s1S.png)](https://www.youtube.com/embed/6T2N8gNUTQ8)
+
+
+
+
+
+
+
+## Screenshot
+
+
+
 
 ## Author :black_nib:
 
-- **Leo Azubuike** <[Zubby](https://github.com/Azubuikeleo13)>
+- **Nabil M5** <[GitHub](https://github.com/NabilM5/)>
+
+---
+
+
