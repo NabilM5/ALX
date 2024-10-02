@@ -1,8 +1,11 @@
+CFLAGS = -I/opt/homebrew/include/SDL2
+LDFLAGS = -L/opt/homebrew/lib -lSDL2
+
 build:
-	gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
+	gcc -Wall -Werror -Wextra -pedantic ./src/*.c $(CFLAGS) $(LDFLAGS) -lm -o maze
 
 run:
-	./maze;
+	./maze
 
 clean:
-	rm maze;
+	rm -f maze
